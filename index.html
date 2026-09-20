@@ -18,11 +18,6 @@
         Generates working Xtream Codes IPTV portals. Click <b>Get IPTV</b> to
         find live credentials, then copy them into your favourite IPTV player.
       </p>
-
-      <button id="get-app" class="cta-app" type="button">
-        <span class="ico" data-icon="download"></span>
-        Get the app
-      </button>
     </header>
 
     <div class="controls">
@@ -65,59 +60,10 @@
     <div id="cards" class="cards"></div>
   </div>
 
-  <!-- App download modal -->
-  <div
-    id="app-modal"
-    class="app-modal"
-    aria-hidden="true"
-    role="dialog"
-    aria-labelledby="app-modal-title"
-  >
-    <div class="app-modal-backdrop" data-close></div>
-
-    <div class="app-modal-panel" role="document">
-      <button
-        class="app-modal-close"
-        type="button"
-        data-close
-        aria-label="Close"
-      >
-        <span class="ico" data-icon="close"></span>
-      </button>
-
-      <header class="app-modal-head">
-        <h2 id="app-modal-title">Get the iptv app</h2>
-        <p>Live TV, EPG, parental controls and a faster player. Free.</p>
-      </header>
-
-      <figure class="app-modal-shot">
-        <img
-          src="app.png"
-          alt="iptv app screenshot"
-          loading="lazy"
-        />
-      </figure>
-
-      <div class="app-modal-grid" id="app-downloads">
-        <!-- platforms injected by JS -->
-        <div class="app-modal-loading">
-          Loading latest release…
-        </div>
-      </div>
-
-      <p class="app-modal-foot">
-        Latest version
-        <span id="app-version">…</span>
-        from GitHub Releases.
-      </p>
-    </div>
-  </div>
-
   <script src="js/muffler.js"></script>
   <script src="js/icons.js"></script>
   <script src="js/pasteSh.js"></script>
   <script src="js/verifier.js"></script>
-  <script src="js/appModal.js"></script>
   <script src="js/scraper.js"></script>
 </body>
 </html>
